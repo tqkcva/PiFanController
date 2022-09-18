@@ -1,0 +1,12 @@
+[Unit]
+Description = Price tracker daemon
+After network.target = auditd.service
+
+[Service]
+Type = forking
+ExecStart = /home/TTra/python/PiFanController/PiFanController.sh start
+ExecStop = /home/TTra/python/PiFanController/PiFanController.sh stop
+ExecReload = /home/TTra/python/PiFanController/PiFanController.sh reload
+
+[Install]
+WantedBy = multi-user.target
