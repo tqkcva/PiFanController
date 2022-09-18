@@ -2,7 +2,7 @@
 # System-V service file
 #
 
-SERVICE_NAME="RPi Fan Controler"
+SERVICE_NAME="RPi Fan Controller"
 SERVICE_ID="PiFanController"
 
 SERVICE_PATH=/home/TTra/python/PiFanController
