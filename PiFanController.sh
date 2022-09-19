@@ -1,5 +1,5 @@
 #!/bin/bash
-# System-V service file
+# Systemd service file
 #
 
 SERVICE_NAME="RPi Fan Controller"

@@ -20,11 +20,9 @@ def fanVal(temp):
     if temp < 50:
         return 0.0
     if temp < 60:
-        return 0.2
+        return 0.7
     if temp < 70:
-        return 0.5
-    if temp < 80:
-        return 0.8
+        return 0.9
     return 1.0
 
 if __name__ == "__main__":
